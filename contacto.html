@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <header class="encabezado  ">
+            <nav class="navbar navbar-expand-lg bg-light    ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/logo-ford.png" width="150" height="50"
+                            alt="Logo Ford"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link " href="nosotros.html" role="button">
+                                    Nosotros
+                                </a>
+                                <!--
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Historia</a></li>
+                                    <li><a class="dropdown-item" href="#">Misión</a></li>
+                                    <!--
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    
+                                    <li><a class="dropdown-item" href="#">Visión</a></li>
+                                    <li><a class="dropdown-item" href="#">Valores</a></li>
+                                </ul>
+                                -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Vehículos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contacto.html" class="nav-link">Contactanos</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <h1 class="text-center">Contactanos</h1>
+        <section class="row _fondoFormulario">
+            <form class="col-12 col-md-4 m-auto needs-validation _formulario" novalidate>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" aria-describedby="nameHelp" required
+                        placeholder="Indique su nombre">
+                    <div id="nameHelp" class="form-text valid-feedback">
+                        Todo bien
+                    </div>
+                    <div id="nameHelp" class="form-text invalid-feedback">
+                        El campo nombre no puede estar vacio
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" aria-describedby="lastNameHelp"
+                        placeholder="Indique su apellido" required>
+                    <div id="lastNameHelp" class="form-text valid-feedback">
+                        Todo bien
+                    </div>
+                    <div id="lastNameHelp" class="form-text invalid-feedback">
+                        El campo apellido no puede estar vacio
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Indique su email ejemplo@gmail.com</div>
+                </div>
+                <div class="mb-3">
+                    <label for="observaciones" class="form-label">Observaciones</label>
+                    <textarea class="form-control" id="observaciones" rows="3"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
+                </div>
+                <div class="mb-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Terminos y condiciones
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Terminos y condiciones</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="close"></button>
+                                </div>
+                                <div class="modal-body ">
+                                    <h2>Me comprometo a leer todo</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non reiciendis quod obcaecati delectus sed alias facilis, beatae, placeat quo quia nesciunt dolorem ut architecto tenetur tempore odio ex quam excepturi repellendus, pariatur fugit maxime odit dolore! Eos reiciendis blanditiis perspiciatis doloribus inventore quibusdam sint magnam soluta, velit quas magni rem beatae deleniti? Sint quasi iusto recusandae, eligendi incidunt eaque explicabo dicta animi, soluta quo error officia provident fuga nulla necessitatibus! Quam, obcaecati corrupti, ut neque odit, repellendus iste eius ab facilis rem minima! Optio aperiam iusto similique vel necessitatibus in adipisci laboriosam animi exercitationem dignissimos, quibusdam, totam praesentium distinctio tempore? Eligendi facilis excepturi ratione magnam voluptate, nihil cupiditate ipsam, ullam alias, quae facere quisquam laboriosam voluptates deserunt minus velit doloribus ad eveniet animi totam corrupti nemo cumque! Corrupti blanditiis eligendi, ipsa laboriosam suscipit, corporis recusandae vitae enim hic porro accusamus inventore! Minus quisquam ut numquam repellendus voluptas doloremque eveniet fuga fugiat accusamus. Mollitia saepe aperiam dignissimos eligendi inventore, nesciunt fuga deserunt nisi molestias numquam pariatur cumque dicta ab doloremque repellendus corrupti itaque, nobis quas porro facilis id reiciendis. Quisquam, deserunt hic sapiente, fuga ipsa minus asperiores, aliquid nulla illum alias omnis eveniet. Enim, deleniti pariatur reiciendis ea repudiandae nobis repellendus.</p>
+                                    <h2>Condiciones</h2>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">Ver mas detalle</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+    </script>
+    -->
+</body>
+
+</html>

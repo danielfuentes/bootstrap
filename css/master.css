@@ -1,0 +1,53 @@
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*/
+/*
+.bg-light{
+    background-color: blue !important;
+}
+*/
+/*
+body{
+    background-image: url('../img/banner-formulario.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*/
+._titulo{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+._footer{
+    color: white;
+    background-color: blue;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: yellow;
+}
+._fondoFormulario{
+   background-image: url('../img/banner-formulario.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 650px; 
+}
+._formulario{
+    background-color: rgba(255, 255, 255,0.7);
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    padding: 10px;
+    border-radius: 50px 0px 50px 0px;
+}
